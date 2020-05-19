@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Personalizado</title>
+	<link rel="icon" href="img/logoPequeno.svg">
+	<link rel="stylesheet" type="text/css" href="css/servicios.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+</head>
+<body >
+	
+	<header class="container" style="background-image: url(img/navfond.jpg);">
+		<figure class="logo">
+			<img src="img/logo.svg">
+		</figure>
+
+		<nav>
+			<a  href="#" class="item-options">Inicio</a>
+			<a  href="#" class="item-options">Servicios</a>
+			<a  href="#" class="item-options">Galeria</a>	
+			<a  href="#" class="item-options">Nosotros</a>	
+		</nav>
+	</header>
+<center>
+<section>
+
+<div class="art1">
+<h1>T-shirt</h1>
+<div class="img">
+				<img src="img/aqui.jpg" alt="T-shirt logo aqui">
+</div>
+<div class="desc">
+	<h3>Aquí podremos encontrar todo tipo de T-shirt, hasta el size más grande hasta el más pequeño.</h3>
+	<h3>Además de ofrecer una gran variedad de personalización en ellos, desde sublimación hasta serigrafía en el lugar que desees. </h3>
+
+</div>
+</div>
+
+
+
+
+
+<div class="art1">
+<h1>Tazas</h1>
+<div class="img">
+				<img src="img/imag2.jpg" alt="Taza de amor">
+</div>
+<div class="desc">
+	<h3>Podremos encontrar una gran variedad de tazas a tu gusto, sin importar tu color favorito o tu forma favorita, ya que tenemos todo tipos de tazas, desde tazas mágicas hasta tazas en forma de bombilla, todo eso y más…</h3>
+		
+	
+</div>
+</div>
+
+<div class="art1">
+<h1>Abrigos</h1>
+<div class="img">
+				<img src="img/imag3.jpg" alt="Abrigo de anime">
+</div>
+<div class="desc">
+	<h3>Con ellos podemos cubrirnos cuando tenemos frio o en mejor de los casos a nuestra acompañante, pero, que tal si hacemos todo eso con estilo al personalizarlo a nuestro antojo, del color o forma que queramos para demostrar nuestro gran gusto por la moda en nuestro día día.</h3>
+	
+
+</div>
+</div>
+</section>
+</center>
+<center>
+<aside>
+
+
+<h2 class="w3-center">Imagenes</h2>
+
+<div class="w3-content w3-section" style="width:50%; max-width: 500px; margin: 20px; height: 50%;">
+  <img class="mySlides" src="img/magic.jpg" style="width:100%">
+  <img class="mySlides" src="img/imag1.jpg" style="width:100%">
+  <img class="mySlides" src="img/boo.svg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Cambiar imagen en 3 segundos
+}
+</script>
+</aside>
+
+
+<div class="final">
+	<footer>
+		  <div class="container-footer-all">
+			   <div class="container-body">
+				   <div class="colum1">
+					   <h2>Más información de la compañia</h2>
+					   <p>Esta compañia se dedica a la venta de publicidad, ofreciendole un toque personal a tu consultorio, negocio, o cualquier espacio, resaltando cada propósito que te identifica como empresa.
+					   </p>
+				  <br>
+   
+   <div class="boton">
+				  <a href="estrella.html"> <img src="boton.png" height="50" width="160"> </a>
+   </div>
+   </div>
+					<div class="colum2">
+					   <h2>Redes Sociales</h2>
+					   <div class="row">
+						  <a href="https://www.facebook.com/GraphicDepotSRL/"> <img src="facebook.png"> </a>
+						   <label>Siguenos en Facebook</label>
+					   </div>
+					   <div class="row">
+						   <img src="twitter.png">
+						   <label>Siguenos en Twitter</label>
+					   </div>
+					   <div class="row">
+						  <a href="https://instagram.com/graphicdepot?igshid=p0b2f81rxm3v"> <img src="instagram.png"> </a>
+						   <label>Siguenos en Instagram</label>
+					   </div>
+				   </div>
+				   <div class="colum3">
+					   <h2>Información Contactos</h2>
+					   <div class="row2">
+						   <img src="casa.png">
+						   <label>Avenida Franco Bido #365 51000, Santiago_Caballeros</label>
+					   </div>
+					   <div class="row2">
+						   <img src="telefono.png">
+						   <label>1+ 809-226-3798</label>
+					   </div>
+					   <div class="row2">
+						   <img src="carta.png">
+							<label>GraphicDepot@gmail.com</label>
+					   </div>
+				   </div>
+				</div>
+		   </div>
+		   <div class="container-footer">
+				  <div class="footer">
+					   <div class="copyright">
+						   © 2017 Todos los Derechos Reservados | <a href="">Graphic Depot</a>
+					   </div>
+					   <div class="information">
+						   <a href="jenn.html">Ubicación Compañia </a> | <a href="">Privacion y Politica</a> | <a href="">Términos y Condiciones</a>
+					   </div>
+				   </div>
+			   </div>
+	   </footer>
+   </div>
+</body>
+</html>
